@@ -1,0 +1,17 @@
+# Security 
+.env
+
+# Python files
+__pycache__/
+*.pyc
+.venv/
+
+# Temporary Data
+logs/
+data/notes/*
+!data/notes/.gitkeep
+
+# Vector Database 
+data/vector_db/*.index
+data/vector_db/*.metadata
+data/vector_db/*.pkl
